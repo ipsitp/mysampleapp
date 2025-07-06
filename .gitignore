@@ -1,6 +1,6 @@
 # Terraform
-*.tfstate
-*.tfstate.*
+# *.tfstate
+# *.tfstate.*
 .terraform/
 .terraform.lock.hcl
 terraform.tfvars.backup
@@ -49,4 +49,3 @@ Thumbs.db
 *.log
 
 terraform/.terraform/*
-terraform/terraform.tfstate
